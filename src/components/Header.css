@@ -1,0 +1,15 @@
+#welcome {
+  color: orange;
+  font-size: 1.8em;
+}
+
+.header-menu {
+  font-size: 1.4em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: black !important;
+  opacity: 0.5;
+}

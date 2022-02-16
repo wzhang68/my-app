@@ -1,0 +1,17 @@
+#myphoto {
+  width: 80%;
+  border-radius: 40%;
+}
+
+.brand {
+  color: black;
+}
+
+.self-intro {
+  text-align: left;
+}
+
+.description {
+  text-align: left;
+  font-size: 1.2em;
+}

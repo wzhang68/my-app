@@ -27,12 +27,12 @@ const Header = () => {
           >
             <ul className="navbar-nav ms-auto flex-nowrap">
               <li className="nav-item">
-                <Link to="/" className="nav-link m-2 menu-item">
+                <Link to="/my-app" className="nav-link m-2 menu-item">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/project" className="nav-link m-2 menu-item">
+                <Link to="/my-app/project" className="nav-link m-2 menu-item">
                   Projects
                 </Link>
               </li>

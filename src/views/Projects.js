@@ -13,9 +13,15 @@ import {
   faBootstrap,
   faPython,
   faMicrosoft,
+  faGoogle
 } from "@fortawesome/free-brands-svg-icons";
-import { faFlask } from "@fortawesome/free-solid-svg-icons";
+import { faFlask,faE } from "@fortawesome/free-solid-svg-icons";
 import ME from "../assets/me.jpg";
+import PW from "../assets/pw.jpg";
+import GM from "../assets/Game1.jpeg";
+import APP1 from "../assets/APP1.png";
+import APP2 from "../assets/APP2.jpeg";
+import APP3 from "../assets/APP3.jpeg";
 
 const Projects = () => {
   return (
@@ -39,6 +45,10 @@ const Projects = () => {
                     <p className="text-xs">Vue</p>
                   </div>
                   <div className="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1">
+                    <FontAwesomeIcon icon={faReact} size="2x" />
+                    <p className="text-xs">React</p>
+                  </div>
+                  <div className="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1">
                     <FontAwesomeIcon icon={faGithub} size="2x" />
                     <p className="text-xs">GitHub Page</p>
                   </div>
@@ -47,7 +57,7 @@ const Projects = () => {
             </div>
             <div className="col-md-4 align-self-center">
               {/* <img src="@/assets/main3.jpg" alt="Image" style="width: 95%" /> */}
-              <img src={ME} alt="Image" style={{ width: "55%" }} />
+              <img src={PW} alt="Image" style={{ width: "80%" }} />
             </div>
           </div>
         </div>
@@ -132,7 +142,7 @@ const Projects = () => {
             </div>
             <div className="col-md-4 align-self-center">
               {/* <img src="@/assets/main2.jpg" alt="Image" style="width: 95%" /> */}
-              <img src={ME} alt="Image" style={{ width: "95%" }} />
+              <img src={GM} alt="Image" style={{ width: "95%" }} />
             </div>
           </div>
         </div>
@@ -173,11 +183,13 @@ const Projects = () => {
                     <p className="text-xs">Node.js</p>
                   </div>
                   <div className="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1">
-                    <i className="devicon-express-original colored"></i>
+                    {/* <i className="devicon-express-original colored"></i> */}
+                    <FontAwesomeIcon icon={faE} size="2x" />
                     <p className="text-xs">Express</p>
                   </div>
                   <div className="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1">
-                    <i className="devicon-googlecloud-plain"></i>
+                    {/* <i className="devicon-googlecloud-plain"></i> */}
+                    <FontAwesomeIcon icon={faGoogle} size="2x" />
                     <p className="text-xs">GCP</p>
                   </div>
                 </div>
@@ -197,7 +209,7 @@ const Projects = () => {
             </div>
             <div className="col-md-4 align-self-center">
               {/* <img src="@/assets/main4.png" alt="Image" style="width: 35%" /> */}
-              <img src={ME} alt="Image" style={{ width: "35%" }} />
+              <img src={APP1} alt="Image" style={{ width: "50%" }} />
             </div>
           </div>
         </div>
@@ -236,7 +248,8 @@ const Projects = () => {
                     <p className="text-xs">Node.js</p>
                   </div>
                   <div className="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1">
-                    <i className="devicon-express-original colored"></i>
+                    {/* <i className="devicon-express-original colored"></i> */}
+                    <FontAwesomeIcon icon={faE} size="2x" />
                     <p className="text-xs">Express</p>
                   </div>
                   <div className="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1">
@@ -244,7 +257,8 @@ const Projects = () => {
                     <p className="text-xs">Bootstrap</p>
                   </div>
                   <div className="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-xl-1">
-                    <i className="devicon-googlecloud-plain"></i>
+                    {/* <i className="devicon-googlecloud-plain"></i> */}
+                    <FontAwesomeIcon icon={faGoogle} size="2x" />
                     <p className="text-xs">GCP</p>
                   </div>
                 </div>
@@ -273,7 +287,7 @@ const Projects = () => {
             </div>
             <div className="col-md-4 align-self-center">
               {/* <img src="@/assets/main.jpg" alt="Image" style="width: 95%" /> */}
-              <img src={ME} alt="Image" style={{ width: "95%" }} />
+              <img src={APP2} alt="Image" style={{ width: "95%" }} />
             </div>
           </div>
         </div>
@@ -339,7 +353,7 @@ const Projects = () => {
             </div>
             <div className="col-md-4 align-self-center">
               {/* <img src="@/assets/main5.jpg" alt="Image" style="width: 95%" /> */}
-              <img src={ME} alt="Image" style={{ width: "95%" }} />
+              <img src={APP3} alt="Image" style={{ width: "95%" }} />
             </div>
           </div>
         </div>

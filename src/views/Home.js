@@ -61,7 +61,7 @@ const Home = () => {
           Welcome to my website. Here is a brief self-introduction. Hi, this is
           Wei Zhang. I'm currently a MS student in Computer Science at the
           University of Southern California. I'm a software engineer who has
-          experience in front-end, back-end and game developement. My previous
+          experience in front-end, back-end and game development. My previous
           experience includes various topics in computer science field. I love
           computer science and software that creates value. Feel free to email
           me or join connection to my LinkedIn if you'd like to get in touch

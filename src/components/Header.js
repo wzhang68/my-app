@@ -40,7 +40,7 @@ const Header = () => {
                 <a
                   className="nav-link m-2 menu-item"
                   target="_blank"
-                  href="https://drive.google.com/file/d/1CKFYDN9XeL0ZZGGtW_q8VasHJgE5YpvB/view?usp=sharing"
+                  href="https://drive.google.com/file/d/145QX3EBUegqRDiDPO2Bqd9jUeLGGus1t/view?usp=sharing"
                 >
                   Resume
                 </a>
